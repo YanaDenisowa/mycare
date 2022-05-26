@@ -336,6 +336,9 @@ p {
 .coordination {
     padding: 174px 0;
 }
+.coordination .container {
+    padding: 0;
+}
 .title {
     font-family: 'Poppins';
     font-style: normal;
@@ -381,15 +384,44 @@ p {
     flex-wrap: wrap;
 
 }
-.coordination__cards img{
-    height: 142px;
+.coordination__card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
     width: 230px;
-    display: block;
+    height: 142px;
+    margin-right: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
-.coordination__cards img:hover {
-    transform: scale(1.1);
-    transition: .5s;
+.coordination__card {
+    margin-bottom: 30px;;
 }
+.coordination__card p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #1C1C1C;
+}
+.coordination__card:last-child {
+    margin-right: 0;
+}
+
+/*.coordination__cards img{*/
+/*    height: 142px;*/
+/*    width: 230px;*/
+/*    display: block;*/
+/*}*/
+/*.coordination__cards img:hover {*/
+/*    transform: scale(1.1);*/
+/*    transition: .5s;*/
+/*}*/
 /* Section layers*/
 
 .layers__bg {
