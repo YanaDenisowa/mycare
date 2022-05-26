@@ -271,7 +271,7 @@ p {
 
 /* Section healthcare */
 .healthcare__content {
-    padding: 270px 0;
+    /*padding: 270px 0;*/
     display: flex;
     align-items: center;
     justify-content: end;
@@ -286,6 +286,17 @@ p {
 
     width: 100%;
     display: block;
+}
+.healthcare .container {
+    padding-left: 0;
+}
+.healthcare__content .left__col {
+    padding: 0;
+}
+.healthcare__content img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 .right__col {
 
